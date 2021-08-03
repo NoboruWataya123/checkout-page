@@ -1,121 +1,243 @@
+@media (min-width: 670px) {
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  flex-direction: row;
 }
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.wrapper{
+  display: block;
+  width: 70%;
+  margin: auto;
 }
-
-.footer {
+.productCount{
+  background: #F2F2F2;
+border-radius: 12px;
+border: black 1px solid;
+width: 134.25px;
+height: 42px;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+align-items: center;
+text-align: center;
+margin: 0 1rem 1.4rem 2rem;
+}
+.inputFields{
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
+}
+.productField{
+  background: #F2F2F2;
+border-radius: 12px;
+width: 70%;
+height: 80%;
+margin: 2rem;
+}
+.flexinput{
+}
+.label{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #4F4F4F;
+transform: rotate(-0.02deg);
+}
+.label_right{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #4F4F4F;
+transform: rotate(-0.02deg);
+}
+.flexcountry{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
-
-.footer a {
+.flexcountryitem{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  flex-direction: column;
+  margin: 1rem 2rem 0 0;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.country{
+  width: 217px;
+height: 56px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.headerh3{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+transform: rotate(-0.02deg);
 }
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.check{
+  width: 21px;
+height: 21px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 4px;
+padding-top: 1rem;
 }
-
-.title,
-.description {
-  text-align: center;
+.submitbox{
 }
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.labelbot{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #4F4F4F;
+transform: rotate(-0.02deg);
 }
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.subtn{
+  width: 166px;
+height: 54px;
+background: #F2994A;
+border-radius: 12px;
+cursor: pointer;
+margin: 4rem 0 4rem 4rem;
 }
-
-.grid {
+.totalflex{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  justify-content: space-around;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+margin: 1rem 0 1rem 0;
+}
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
-}
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 670px) {
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1rem;
   }
+  .wrapper{
+    display: block;
+    margin: auto;
+  }
+  .productCount{
+    background: #F2F2F2;
+  border-radius: 12px;
+  border: black 1px solid;
+  width: 120px;
+  height: 49.86px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 0 1rem 1.4rem 2rem;
+  }
+  .inputFields{
+    width: 100%;
+  }
+  .productField{
+    background: #F2F2F2;
+  border-radius: 12px;
+  margin: 1rem;
+  }
+  .flexinput{
+  }
+  .label{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F4F4F;
+  transform: rotate(-0.02deg);
+  }
+  .label_right{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F4F4F;
+  transform: rotate(-0.02deg);
+  }
+  .flexcountry{
+    display: flex;
+    flex-direction: row;
+  }
+  .flexcountryitem{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 0 0;
+  }
+  .country{
+    width: 100%;
+height: 40.56px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+  }
+  .headerh3{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  transform: rotate(-0.02deg);
+  }
+  .check{
+    width: 21px;
+  height: 21px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-top: 1rem;
+  }
+  .submitbox{
+  }
+  .labelbot{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F4F4F;
+  transform: rotate(-0.02deg);
+  }
+  .subtn{
+    width: 166px;
+  height: 54px;
+  background: #F2994A;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 1rem 0 2rem 4rem;
+  }
+  .totalflex{
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin: 1rem 0 1rem 0;
+  }
+  .headerh1{
+    margin-left: 2rem;
+  }
+ 
 }

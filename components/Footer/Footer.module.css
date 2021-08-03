@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  
+  color: #4E5150;
+}
